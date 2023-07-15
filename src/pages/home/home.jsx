@@ -28,7 +28,7 @@ function Home() {
           ></path>
         </svg>
       </div>
-      <main id="content" className="flex-1 p-6 lg:px-8">
+      <main id="content" className="flex-1 lg:px-8">
         <div className="grid lg:grid-cols-2">
           <div className="flex flex-col items-center lg:gap-2 gap-5 justify-center">
             <p className="font-primary lg:text-3xl text-xl font-semibold text-yellow-600">
