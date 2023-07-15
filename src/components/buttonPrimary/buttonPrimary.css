@@ -1,0 +1,12 @@
+.cta svg {
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 2;
+    transform: translateX(-5px);
+    transition: all 0.3s ease;
+   }
+   
+
+.cta:hover svg {
+    transform: translateX(0);
+   }
