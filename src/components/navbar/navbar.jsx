@@ -1,7 +1,7 @@
 import React from "react";
 import "../navbar/navbar.css";
 import { navlinks } from "../../data/navlinks";
-import Logo from "../../assets/logo/logo.png";
+import Logo from "../../assets/LOGO/logo.png";
 import { IconContext } from "react-icons";
 
 function navBar() {
