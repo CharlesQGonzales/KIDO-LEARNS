@@ -39,7 +39,7 @@ function Home() {
               <br />
               for kids
             </h1>
-            <p className="font-primary lg:text-xl font-semibold px-6">
+            <p className="font-primary lg:text-xl font-semibold px-14">
               Process of facilitating learning. or the acquisition of knowledge
             </p>
             <ButtonPrimary>EXPLORE LESSONS</ButtonPrimary>
