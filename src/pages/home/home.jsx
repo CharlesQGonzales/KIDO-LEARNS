@@ -4,7 +4,7 @@ import ButtonPrimary from "../../components/buttonPrimary/buttonPrimary";
 
 function Home() {
   return (
-    <div className="relative pt-20 lg:pt-36">
+    <div className="relative py-32">
       <div class="custom-shape-divider-bottom-1689354148">
         <svg
           data-name="Layer 1"
@@ -28,27 +28,27 @@ function Home() {
           ></path>
         </svg>
       </div>
-      <main id="content" className="flex-1 lg:px-8">
-        <div className="grid lg:grid-cols-2">
-          <div className="flex flex-col items-center lg:gap-2 gap-5 justify-center">
-            <p className="font-primary lg:text-3xl text-xl font-semibold text-yellow-600">
+      <div className="flex-1">
+        <div className="grid md:grid-cols-2">
+          <div className="flex flex-col items-center md:gap-2 gap-5 justify-center">
+            <p className="font-primary md:text-3xl text-xl font-semibold text-yellow-600">
               MODERN
             </p>
-            <h1 className="font-secondary lg:text-8xl text-6xl text-indigo-400 text-shadow">
+            <h1 className="font-secondary md:text-8xl text-6xl text-indigo-400 text-shadow">
               Education
               <br />
               for kids
             </h1>
-            <p className="font-primary lg:text-xl font-semibold px-14">
+            <p className="font-primary md:text-xl font-semibold px-14">
               Process of facilitating learning. or the acquisition of knowledge
             </p>
             <ButtonPrimary>EXPLORE LESSONS</ButtonPrimary>
           </div>
-          <div className="invisible lg:visible">
+          <div className="invisible md:visible">
             <img src={Hero} alt="Kid handling book" className="w-9/12" />
           </div>
         </div>
-      </main>
+      </div>
     </div>
   );
 }

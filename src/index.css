@@ -10,7 +10,6 @@
   .font-primary {
     font-family: 'Kulim Park', sans-serif;
   }
-  
   .font-secondary {
     font-family: 'Fredoka', sans-serif;
   }
@@ -19,6 +18,11 @@
   }
   .content-space {
     content: "";
+  }
+
+  .filter-drop-shadow {
+    -webkit-filter: drop-shadow(5px 5px 5px rgb(92, 92, 92));
+     filter: drop-shadow(-3px 0px 3px rgb(92, 92, 92));
   }
 
   /* button-primary-style */
@@ -43,7 +47,7 @@
   position: relative;
   display: block;
   width: calc(132% + 1.3px);
-  height: 340px;
+  height: 330px;
 }
 
 .custom-shape-divider-bottom-1689354148 .shape-fill {
@@ -53,8 +57,8 @@
 /** For mobile devices **/
 @media (max-width: 767px) {
   .custom-shape-divider-bottom-1689354148 svg {
-      width: calc(290% + 1.3px);
-      height: 200px;
+      width: calc(200% + 1.3px);
+      height: 220px;
   }
 }
 

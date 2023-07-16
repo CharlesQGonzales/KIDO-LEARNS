@@ -78,7 +78,7 @@ function navBar() {
 
       <aside
         id="sidebar"
-        className="bg-blue-300 rounded-r-xl z-10 shadow-lg text-gray-100 md:w-64 w-3/4 drop-shadow-xl space-y-6 pt-6 px-0 absolute inset-y-0 left-0 transform md:relative md:translate-x-0 transition duration-200 ease-in-out  md:flex md:flex-col overflow-y-auto"
+        className="bg-gray-100 z-10 rounded-tr-2xl md:shadow-lg text-gray-100 md:w-80 h-[100vh] fixed w-3/4 drop-shadow-xl space-y-6 pt-6 px-0 inset-y-0 left-0 transform md:translate-x-0 transition duration-200 ease-in-out  md:flex md:flex-col overflow-y-auto"
         data-dev-hint="sidebar; px-0 for frameless; px-2 for visually inset the navigation"
       >
         <a href="#">
@@ -95,13 +95,13 @@ function navBar() {
                 <nav data-dev-hint="main navigation">
                   <a
                     href={page_navlinks.link}
-                    className="flex items-center space-x-2 py-2 px-4 transition duration-200 hover:bg-blue-200 rounded-lg mx-1 text-white font-medium font-primary"
+                    className="flex items-center space-x-2 py-2 px-4 transition duration-200 hover:bg-blue-200 rounded-lg mx-1 text-black font-medium font-primary"
                   >
                     <pan>
                       {" "}
                       <IconContext.Provider
                         value={{
-                          color: "white",
+                          color: "black",
                           size: "23px",
                         }}
                       >

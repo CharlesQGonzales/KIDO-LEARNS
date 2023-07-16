@@ -5,10 +5,12 @@ import About from "./pages/about/about";
 
 function App() {
   return (
-    <div className="relative min-h-screen md:flex" data-dev-hint="container">
+    <div className="relative min-h-full md:flex" data-dev-hint="container">
       <Navbar />
-      <Hero />
-      <About />
+      <main id="content" className="flex flex-col md:pl-80">
+        <Hero />
+        <About />
+      </main>
     </div>
   );
 }
