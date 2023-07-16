@@ -20,6 +20,11 @@
   .content-space {
     content: "";
   }
+
+  /* button-primary-style */
+  .button-primary-t {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  }
 }
 
 /* Shape Divider */
