@@ -11,7 +11,7 @@ function navBar() {
 
       <label
         for="menu-open"
-        className="absolute right-2 bottom-2 shadow-lg rounded-full z-10 p-2 bg-gray-100 text-gray-600 md:hidden"
+        className="fixed translate-x-2/4 right-8 bottom-3 shadow-lg rounded-full z-10 p-2 bg-gray-100 text-gray-600 md:hidden"
         data-dev-hint="floating action button"
       >
         <svg
@@ -78,7 +78,7 @@ function navBar() {
 
       <aside
         id="sidebar"
-        className="bg-gray-100 z-10 rounded-tr-2xl md:shadow-lg text-gray-100 md:w-80 h-[100vh] fixed w-3/4 drop-shadow-xl space-y-6 pt-6 px-0 inset-y-0 left-0 transform md:translate-x-0 transition duration-200 ease-in-out  md:flex md:flex-col overflow-y-auto"
+        className="bg-blue-300 z-10 rounded-tr-2xl md:shadow-lg text-gray-100 md:w-80 h-[100vh] fixed w-3/4 drop-shadow-xl space-y-6 pt-6 px-0 inset-y-0 left-0 transform md:translate-x-0 transition duration-200 ease-in-out  md:flex md:flex-col overflow-y-auto"
         data-dev-hint="sidebar; px-0 for frameless; px-2 for visually inset the navigation"
       >
         <a href="#">
@@ -95,13 +95,13 @@ function navBar() {
                 <nav data-dev-hint="main navigation">
                   <a
                     href={page_navlinks.link}
-                    className="flex items-center space-x-2 py-2 px-4 transition duration-200 hover:bg-blue-200 rounded-lg mx-1 text-black font-medium font-primary"
+                    className="flex items-center space-x-2 py-2 px-4 transition duration-200 hover:bg-blue-200 rounded-lg mx-1 text-white tracking-wider font-semibold font-primary"
                   >
                     <pan>
                       {" "}
                       <IconContext.Provider
                         value={{
-                          color: "black",
+                          color: "white",
                           size: "23px",
                         }}
                       >

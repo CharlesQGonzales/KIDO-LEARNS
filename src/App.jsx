@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="relative min-h-full md:flex" data-dev-hint="container">
       <Navbar />
-      <main id="content" className="flex flex-col md:pl-80">
+      <main id="content" className="flex flex-col">
         <Hero />
         <About />
       </main>

@@ -4,7 +4,7 @@ import ButtonPrimary from "../../components/buttonPrimary/buttonPrimary";
 
 function Home() {
   return (
-    <div className="relative py-32">
+    <div id="home" className="relative md:py-32 pt-20 md:pl-[400px]">
       <div class="custom-shape-divider-bottom-1689354148">
         <svg
           data-name="Layer 1"
@@ -42,7 +42,7 @@ function Home() {
             <p className="font-primary md:text-xl font-semibold px-14">
               Process of facilitating learning. or the acquisition of knowledge
             </p>
-            <ButtonPrimary>EXPLORE LESSONS</ButtonPrimary>
+            <ButtonPrimary>LESSONS</ButtonPrimary>
           </div>
           <div className="invisible md:visible">
             <img src={Hero} alt="Kid handling book" className="w-9/12" />

@@ -3,7 +3,7 @@ import "./buttonPrimary.css";
 
 function buttonPrimary(props) {
   return (
-    <button className="learn-more relative inline-block cursor-pointer outline-none border-none no-underline bg-transparent p-0 w-48 h-auto align-middle">
+    <button className="learn-more relative inline-block cursor-pointer outline-none border-none no-underline bg-transparent p-0 w-40 h-auto align-middle">
       <span
         className="circle relative block m-0 w-12 h-12 bg-blue-300 rounded-[1.625rem] button-primary-t"
         aria-hidden="true"
