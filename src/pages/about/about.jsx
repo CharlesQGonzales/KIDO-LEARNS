@@ -31,7 +31,7 @@ function About() {
           <ButtonPrimary>ABOUT US</ButtonPrimary>
         </div>
       </div>
-      <div className="flex md:gap-[400px] gap-10 justify-center md:py-28 py-15 bg-[#BAE6FD] pl-6 md:pl-[400px]">
+      <div className="flex md:gap-[400px] gap-10 justify-center md:py-28 py-16 bg-[#BAE6FD] pl-6 md:pl-[400px]">
         {abouts
           .filter((about) => about.info)
           .map((info_abouts) => (
