@@ -31,7 +31,7 @@ function About() {
           <ButtonPrimary>ABOUT US</ButtonPrimary>
         </div>
       </div>
-      <div className="flex md:gap-[400px] gap-10 justify-center md:py-20 py-10 bg-[#BAE6FD] pl-6 md:pl-[400px]">
+      <div className="flex md:gap-[400px] gap-10 justify-center md:py-28 py-15 bg-[#BAE6FD] pl-6 md:pl-[400px]">
         {abouts
           .filter((about) => about.info)
           .map((info_abouts) => (
@@ -42,7 +42,7 @@ function About() {
                   <img
                     src={info_abouts.icon}
                     alt="student icon"
-                    className="md:w-20 w-10 hover:hover-transform drop-shadow-icon pb-2"
+                    className="md:w-20 w-10 drop-shadow-icon pb-2 hover:-translate-y-2 duration-300"
                   />
                 </p>
                 <p className="font-semibold md:text-lg text-base leading-4 font-primary">

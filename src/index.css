@@ -34,11 +34,6 @@
   .button-primary-t {
     transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
   }
-
-  .hover-transform {
-    transform: translateY(-7px);
-    transition: all 0.3s;
-  }
 }
 
 /* Shape Divider */

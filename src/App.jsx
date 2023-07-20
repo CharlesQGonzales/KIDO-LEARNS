@@ -2,6 +2,7 @@ import { useState } from "react";
 import Navbar from "./components/navbar/navbar";
 import Hero from "./pages/home/home";
 import About from "./pages/about/about";
+import Lessons from "./pages/lessons/lessons";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <main id="content" className="flex flex-col">
         <Hero />
         <About />
+        <Lessons />
       </main>
     </div>
   );
